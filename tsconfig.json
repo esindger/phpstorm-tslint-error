@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "paths": {
+      "components": ["components"],
+      "layouts": ["layouts"],
+      "pages": ["pages"]
+    },
+    "rootDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",
+    "types": ["node"]
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "compileOnSave": false
+}
